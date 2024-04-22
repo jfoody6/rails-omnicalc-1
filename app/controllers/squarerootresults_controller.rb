@@ -1,6 +1,6 @@
-class SquarerootnewController < ApplicationController
+class SquarerootresultsController < ApplicationController
 
-  def squareroot_form
+  def squareroot_results
 
     @user_num = params.fetch("number").to_f
     @sq_root_result = @user_num ** 0.5
